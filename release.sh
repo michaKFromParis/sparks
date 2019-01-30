@@ -41,7 +41,7 @@ init ()
 		exit -1
 	fi
 
-	if [ "$version" = "" ]; then
+	if [ "$releaseVersion" = "" ]; then
 		echo "Enter the release version number without a leading v"
 		read releaseVersion
 	fi
